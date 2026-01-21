@@ -4,10 +4,6 @@ import os
 
 np.random.seed(42)
 n_builds = 800
-
-# ✅ Ensure data directory exists
-os.makedirs("data", exist_ok=True)
-
 df = pd.DataFrame({
     "build_number": range(1, n_builds + 1),
     "duration": np.random.randint(60, 1200, n_builds),
