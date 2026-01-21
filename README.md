@@ -161,8 +161,8 @@ data/jenkins_builds.csv
 ### Step 3: Train the Model
 
 ```bash
-python3 src/train.py #Macos
-python src/train.py #Windows
+python3 src/train_model.py #Macos
+python src/train_model.py #Windows
 ```
 
 Expected output:
