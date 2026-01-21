@@ -1,16 +1,4 @@
-Got it 👍
-Below is a **FINAL, CORRECT, and SAFE `README.md`** that **matches EXACTLY**:
-
-* ✅ Your **current `train.py`**
-* ✅ Single **Calibrated RandomForest**
-* ✅ Dataset generator
-* ✅ Streamlit app
-* ✅ **Model folder creation requirement**
-
-You can **copy–paste this directly**.
-
----
-
+ 
 # 🚀 Jenkins Build Failure Prediction System
 
 **Calibrated Machine Learning + Rule-Aware Risk Analysis**
