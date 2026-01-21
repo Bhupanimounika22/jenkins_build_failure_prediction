@@ -114,7 +114,7 @@ cd jenkins_build_failure_prediction
 ```bash
 python3 -m venv venv        # macOS / Linux
 python -m venv venv         #Windows
-source venv/binactivate        # macOS / Linux
+source venv/bin/activate        # macOS / Linux
 venv\Scripts\activate          # Windows
 ```
 
