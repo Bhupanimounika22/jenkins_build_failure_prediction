@@ -5,4 +5,6 @@ scikit-learn
 matplotlib
 seaborn
 joblib
- 
+xgboost
+matplotlib
+shap
