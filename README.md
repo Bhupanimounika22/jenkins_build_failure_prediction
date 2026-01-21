@@ -103,7 +103,7 @@ jenkins_build_failure_prediction/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Bhupanimounika22/jenkins_build_failure_prediction.git
 cd jenkins_build_failure_prediction
 ```
 
