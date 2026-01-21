@@ -1,9 +1,12 @@
-# data/generate_data.py
 import pandas as pd
 import numpy as np
+import os
 
 np.random.seed(42)
 n_builds = 800
+
+# ✅ Ensure data directory exists
+os.makedirs("data", exist_ok=True)
 
 df = pd.DataFrame({
     "build_number": range(1, n_builds + 1),
@@ -27,4 +30,4 @@ df["prev_failure"] = df["failure"].shift(1).fillna(0)
 df["failure_last_5"] = df["failure"].rolling(5).sum().fillna(0)
 
 df.to_csv("data/jenkins_builds.csv", index=False)
-print("✅ Dataset generated")
+print("✅ Dataset generated successfully")
